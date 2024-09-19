@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto, sans-serif;
+    background-color: #F8BBD0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 50%;
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #EC407A;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #C2185B;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #F48FB1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #F06292;
+}
+
+a {
+    color: #C2185B;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.login-box p a {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.login-box p:last-of-type {
+    margin-bottom: 0;
+}
+
+.register-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #EC407A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.register-button:hover {
+    background-color: #D81B60;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #F5A9B8;
+    margin: 15px 0;
+}
+
+@media (max-width: 600px) {
+    .login-box {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    form input, form button, .register-button {
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 60%;
+    }
+}
